@@ -111,7 +111,6 @@ public class StringInterpolationService : IStringInterpolationService
     {
         var answer = $"{Convert.ToInt32(Math.Sqrt(2)):X2}";
         Console.WriteLine(answer);
-
         return answer;
     }
 
