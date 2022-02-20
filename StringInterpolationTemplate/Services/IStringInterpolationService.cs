@@ -1,6 +1,4 @@
-﻿namespace StringInterpolationTemplate.Services;
-
-public interface IStringInterpolationService
+﻿public interface IStringInterpolationService
 {
     string Number01();
     string Number02();

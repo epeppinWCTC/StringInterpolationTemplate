@@ -1,8 +1,5 @@
 ﻿using System;
 using Microsoft.Extensions.Logging;
-using StringInterpolationTemplate.Utils;
-
-namespace StringInterpolationTemplate.Services;
 
 public class StringInterpolationService : IStringInterpolationService
 {

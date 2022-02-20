@@ -1,8 +1,5 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
-using StringInterpolationTemplate.Services;
-
-namespace StringInterpolationTemplate;
 
 public class Program
 {

@@ -1,11 +1,7 @@
 using System;
 using Microsoft.Extensions.Logging.Abstractions;
 using Moq;
-using StringInterpolationTemplate.Services;
-using StringInterpolationTemplate.Utils;
 using Xunit;
-
-namespace StringInterpolationTemplate.Tests;
 
 public class StringInterpolationServiceTests
 {

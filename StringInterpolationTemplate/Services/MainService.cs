@@ -1,6 +1,4 @@
-﻿namespace StringInterpolationTemplate.Services;
-
-public class MainService : IMainService
+﻿public class MainService : IMainService
 {
     private readonly IStringInterpolationService _stringInterpolationService;
 

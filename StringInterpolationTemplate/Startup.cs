@@ -1,10 +1,6 @@
 ﻿using System;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using StringInterpolationTemplate.Services;
-using StringInterpolationTemplate.Utils;
-
-namespace StringInterpolationTemplate;
 
 internal class Startup
 {
