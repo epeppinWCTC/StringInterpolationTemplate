@@ -11,6 +11,7 @@ public class StringInterpolationService : IStringInterpolationService
         _date = date;
         _logger = logger;
         _logger.Log(LogLevel.Information, "Executing the StringInterpolationService");
+        System.Globalization.CultureInfo.CurrentCulture = System.Globalization.CultureInfo.GetCultureInfo("en-US");
     }
 
     //1. January 22, 2019 (right aligned in a 40 character field)

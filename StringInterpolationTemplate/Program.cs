@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using Microsoft.Extensions.DependencyInjection;
 
 public class Program
@@ -12,6 +13,7 @@ public class Program
             var service = serviceProvider.GetService<IMainService>();
 
             service?.Invoke();
+            Console.WriteLine("Currency Symbol: {0}", NumberFormatInfo.CurrentInfo.CurrencySymbol);
         }
         catch (Exception e)
         {
